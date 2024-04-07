@@ -60,6 +60,10 @@ header a:hover{
     font-size: larger;
     padding: 4px;
 }
+.wrk-t label{
+    width: 300px;
+    color: orange;
+}
 .home img{
     height: 170px;
     width: 170px;
