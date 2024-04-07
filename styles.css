@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url(images/susan-wilkinson-EBH7bF9407c-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
 header span{
     color: orange;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -12,6 +17,7 @@ header{
     box-shadow: 1px 1px 3px 1px orange ;
     padding-left: 1%;
     padding-right: 1%;
+    background-color: white;
 }
 header>nav>ul{
     display: flex;
@@ -44,6 +50,7 @@ header a:hover{
     width: 200px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: larger;
+    font-weight: bold;
 }
 .home input{
     width: 300px;
@@ -63,6 +70,14 @@ header a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.p-cont img:hover{
+    transform: scale(1.55);
+    box-shadow: 1px 1px 1px 2px orange;
+    margin: 5%;
+}
+.home>.description h3{
+    margin-top: 2%;
 }
 .home>.description p{
     margin-top: 1%;
