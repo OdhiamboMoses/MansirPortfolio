@@ -29,6 +29,10 @@ header>nav>ul{
 header>nav>ul>li>a{
     text-decoration: none;
 }
+header a:hover{
+    background-color: white;
+    color: orange;
+}
 @media (max-width:550px){
     header>nav{
         display: flex;
@@ -41,11 +45,12 @@ header>nav>ul>li>a{
         flex-direction: column;
         align-items: flex-start;
     }
-}
-header a:hover{
-    background-color: white;
-    padding: 16px;
-    color: orange;
+    header a:hover{
+        padding: 10px;
+        background-color: orange;
+        color: white;
+        width: 100%;
+    }
 }
 .home{
     margin-top: 1%;
@@ -102,4 +107,27 @@ header a:hover{
     text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
+}
+.footer{
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid orange;
+    margin-top: 1%;
+}
+.footer li{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+    color: green;
+}
+.footer a:hover{
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    margin: 1%;
+}
+.footer i{
+    color: blue;
 }
