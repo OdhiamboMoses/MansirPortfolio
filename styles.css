@@ -123,6 +123,48 @@ header a:hover{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: blue;
 }
+.rev-icons a{
+    color: black;
+}
+.rev-icons a:hover{
+    color: orange;
+}
+.rev:visited{
+    color: green;
+}
+.rev1:visited{
+    color: green;
+}
+.rev2:visited{
+    color: green;
+}
+.rev3:visited{
+    color: green;
+}
+.rev4:visited{
+    color: green;
+}
+.rev5:visited{
+    color: green;
+}
+.rev6:visited{
+    color: green;
+}
+.rev7:visited{
+    color: green;
+}
+.rev8:visited{
+    color: green;
+}
+.rev10:visited{
+    color: green;
+}
+.rev11:visited{
+    color: green;
+}
+.rev12:visited{
+    color: green;
+}
 .footer{
     height: auto;
     background-color: white;
